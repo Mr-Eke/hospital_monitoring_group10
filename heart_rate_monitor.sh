@@ -11,4 +11,14 @@ echo "Heart rate logging starting..."
 echo "The process ID (PID) is : $$"
 echo "Logging heart rate data to heart_rate_log.txt."
 
+# Loop for logging heart rate data every second
+while true; do
+	timestamp=$(date +"%Y-%m-%d %H:%M:%S")
 
+	heart_rate=$((RANDOM%60 + 100))
+
+	sleep 1
+
+	echo "$timestamp | $device_name | $heart_rate BPM" >> heart_rate_log.txt
+
+done &
