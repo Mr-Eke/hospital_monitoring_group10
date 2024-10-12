@@ -25,3 +25,9 @@ done
 
 # Copy/backup archived data to a remote server
 scp $archiveDirectory/* "$userName@$hostInfo:/home/"
+
+if [ $? -eq 0 ]; then
+    echo -e "\nFiles succesfully moved and backed up to remote server"
+else
+    echo "Backup failed"
+fi
