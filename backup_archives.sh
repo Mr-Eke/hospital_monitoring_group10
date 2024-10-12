@@ -14,3 +14,12 @@ else
 
 fi
 
+for eachFile in heart_rate_log.txt_*; do 
+	if [ -f "$eachFile" ]; then
+		mv "$eachFile" "$archiveDirectory"
+		echo "The file has been successfully moved"
+	else 
+		echo "File not found"
+
+  	fi 
+done
