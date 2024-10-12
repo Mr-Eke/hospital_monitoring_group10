@@ -1,32 +1,21 @@
-#!/bin/bash
-# This script records heart rate data every second and logs record to heart_rate_log.txt file
-# It also displays the Process ID (PID) of the script
+#!/usr/bin/env bash
+
+# This script runs in the background, records heart rate data every second, and logs
+# it to a text file. It also displays the Process ID of the script for management.
 
 # Request for device name
-echo "Enter the Recording Device Name:"
-read device_name
+read -p 'Enter device name (e.g., "Monitor_A", "Monitor_B"): ' device_name
 
-# Variable for holding heart_rate_log.txt
 heart_log="heart_rate_log.txt"
-
-# Display logging message
-echo "Heart rate logging starting..."
 echo "Logging heart rate data to $heart_log"
 
-# Loop for logging heart rate data every second
+# Log heart rate data every second into a log file
 while true; do
-	# Get the current timestamp
-	timestamp=$(date +"%Y-%m-%d %H:%M:%S")
-
-	# Generate random heart rate between 60 and 100
-	heart_rate=$((RANDOM%41 + 60))
-
-	# Log data to the heart_rate_log.txt file
-	echo "$timestamp $device_name ${heart_rate}BPM" >> $heart_log
-
-	# Sleep for 1 second before logging the next data
-	sleep 1
+    time_stamp=$(date "+%Y-%m-%d %H:%M:%S")
+    simulated_heart_rate=$((RANDOM % 40 + 60)) # Random heart rate between 60 and 100
+    echo "$time_stamp $device_name $simulated_heart_rate" >> "$heart_log"
+    sleep 1
 done &
 
-# Display last executed process ID
-echo "The process ID (PID) is : $!"
+# Display process ID for management
+echo "The process ID (PID) for this script is: $!"
