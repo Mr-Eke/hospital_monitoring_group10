@@ -23,9 +23,8 @@ while true; do
 	heart_rate=$((RANDOM%41 + 60))
 
 	# Log data to the heart_rate_log.txt file
-	echo "$timestamp | $device_name | $heart_rate BPM" >> $heart_log
+	echo "$timestamp $device_name ${heart_rate}BPM" >> $heart_log
 
 	# Sleep for 1 second before logging the next data
 	sleep 1
-
 done &
