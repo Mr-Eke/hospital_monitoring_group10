@@ -9,9 +9,8 @@ read device_name
 # Variable for holding heart_rate_log.txt
 heart_log="heart_rate_log.txt"
 
-# Display logging message and PID of the script
+# Display logging message
 echo "Heart rate logging starting..."
-echo "The process ID (PID) is : $$"
 echo "Logging heart rate data to $heart_log"
 
 # Loop for logging heart rate data every second
@@ -28,3 +27,6 @@ while true; do
 	# Sleep for 1 second before logging the next data
 	sleep 1
 done &
+
+# Display last executed process ID
+echo "The process ID (PID) is : $!"
