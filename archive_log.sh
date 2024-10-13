@@ -9,6 +9,7 @@ if [ ! -f "$LOG_FILE" ]; then
        exit 1
 fi
 
+# Get Log file format its time stamp and move them as archived 
 TIME_STAMP=$(date +"%Y%m%d_%H%M%S")
 ARCHIVE_FILE="${LOG_FILE}_${TIME_STAMP}" 
 
