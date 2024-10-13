@@ -10,4 +10,8 @@ if [ ! -f "$LOG_FILE" ]; then
 fi
 
 TIME_STAMP=$(date +"%Y%m%d_%H%M%S")
-ARCHIVE_FILE="${LOG_FILE}_${TIME_STAMP}"
+ARCHIVE_FILE="${LOG_FILE}_${TIME_STAMP}" 
+
+mv "$LOG_FILE" "$ARCHIVE_FILE"
+echo "Log file has been archived as $ARCHIVE_FILE"
+
