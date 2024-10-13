@@ -9,4 +9,5 @@ if [ ! -f "$LOG_FILE" ]; then
        exit 1
 fi
 
-
+TIME_STAMP=$(date +"%Y%m%d_%H%M%S")
+ARCHIVE_FILE="${LOG_FILE}_${TIME_STAMP}"
