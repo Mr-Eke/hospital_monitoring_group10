@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Log file to be archived
 LOG_FILE="heart_rate_log.txt"
