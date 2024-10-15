@@ -24,7 +24,7 @@ for eachFile in heart_rate_log.txt_*; do
 done
 
 # Copy/backup archived data to a remote server
-scp $archiveDirectory/* "$userName@$hostInfo:/home/"
+scp -r $archiveDirectory "$userName@$hostInfo:/home/"
 
 # checks if the script entirely xcuted successfuly
 if [ $? -eq 0 ]; then
