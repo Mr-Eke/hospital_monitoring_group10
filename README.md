@@ -7,4 +7,13 @@ This project aims to develop a system for **recording heart rate data**, **archi
 »  **Log Archival Script**  ╰⪼   `archive_log.sh`  
 »  **Archival and Backup Script**  ╰⪼   `backup_archives.sh`  
 
-These scripts are part of the hospital’s system upgrade to improve patient monitoring and data management.
+These scripts are part of the hospital’s system upgrade to improve patient monitoring and data management.  
+---
+## Prerequisites and Setup Instructions
+- A Unix/Linux environment with Bash installed (Pre-installed by Default).  
+- You should have git installed  
+- Clone the repository and switch to the project directory ⤵️  
+```
+eke@ubuntu~$ git clone https://github.com/Mr-Eke/hospital_monitoring_group10.git
+eke@ubuntu~$ cd hospital_monitoring_group10
+```
