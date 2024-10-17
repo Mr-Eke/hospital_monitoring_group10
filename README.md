@@ -3,11 +3,12 @@
 ## Project Overview
 This project aims to develop a system for **recording heart rate data**, **archiving logs**, and **backing them up to a remote server**. The project includes three main tasks, each implemented as a shell script:
 
-»  **Heart Rate Monitoring Script**  ╰⪼   `heart_rate_monitor.sh`
-»  **Log Archival Script**  ╰⪼   `archive_log.sh`
-»  **Archival and Backup Script**  ╰⪼   `backup_archives.sh`
+»  **Heart Rate Monitoring Script**  ╰⪼   `heart_rate_monitor.sh`  
+»  **Log Archival Script**  ╰⪼   `archive_log.sh`  
+»  **Archival and Backup Script**  ╰⪼   `backup_archives.sh`  
+  
+These scripts are part of the hospital’s system upgrade to improve patient monitoring and data management.  
 
-These scripts are part of the hospital’s system upgrade to improve patient monitoring and data management.
 ---
 ## Prerequisites and Setup Instructions
 - A Unix/Linux environment with Bash installed (Pre-installed by Default).
@@ -30,4 +31,16 @@ This script moves the archived log files to a designated directory and backs the
 - **Check and Confirm Backup**:
   - Archived files will be moved to the `archived_logs_group10` and then securely copied to the home directory `/home/` of your remote server using `scp`. You can check the home directory of your remote server to confirm that the directory `archived_logs_group10` and its contents are there.
 
----
+---  
+## Group Session Attendance Report
+
+We met several times during the development of this project. Below is a summary of attendance during group sessions:
+
+| **Session**                                    | **Date (2024)**      | **Present**                                               | **Absent** |
+|------------------------------------------------|---------------|-----------------------------------------------------------|------------|
+| 1 ⮞ Understanding the tasks                | 08-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| 2 ⮞ Task 1 Implementation              | 10-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| 3 ⮞ Task 2 Implementation              | 13-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| 4 ⮞ Task 3 Implementation              | 12-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| 4 ⮞ Checks & Test running                  | 12-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| 5 ⮞ Documentation                      | 17-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |  
