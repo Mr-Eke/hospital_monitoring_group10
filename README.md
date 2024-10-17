@@ -17,3 +17,7 @@ These scripts are part of the hospital’s system upgrade to improve patient mon
 eke@ubuntu~$ git clone https://github.com/Mr-Eke/hospital_monitoring_group10.git
 eke@ubuntu~$ cd hospital_monitoring_group10
 ```
+### Task 2: Log Archival
+This script archives the heart rate log file by renaming it with a timestamp.
+- To archive the log file, run archive_log script » `./archive_log.sh`
+   - The original `heart_rate_log.txt` will be renamed to `heart_rate_log.txt_YYYYMMDD_HHMMSS` with the timestamp of when the script was executed.
