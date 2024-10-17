@@ -3,11 +3,11 @@
 ## Project Overview
 This project aims to develop a system for **recording heart rate data**, **archiving logs**, and **backing them up to a remote server**. The project includes three main tasks, each implemented as a shell script:
 
-»  **Heart Rate Monitoring Script**  ╰⪼   `heart_rate_monitor.sh`  
-»  **Log Archival Script**  ╰⪼   `archive_log.sh`  
-»  **Archival and Backup Script**  ╰⪼   `backup_archives.sh`  
-  
-These scripts are part of the hospital’s system upgrade to improve patient monitoring and data management.  
+»  **Heart Rate Monitoring Script**  ╰⪼   `heart_rate_monitor.sh`
+»  **Log Archival Script**  ╰⪼   `archive_log.sh`
+»  **Archival and Backup Script**  ╰⪼   `backup_archives.sh`
+
+These scripts are part of the hospital’s system upgrade to improve patient monitoring and data management.
 
 ---
 ## Prerequisites and Setup Instructions
@@ -31,7 +31,7 @@ This script moves the archived log files to a designated directory and backs the
 - **Check and Confirm Backup**:
   - Archived files will be moved to the `archived_logs_group10` and then securely copied to the home directory `/home/` of your remote server using `scp`. You can check the home directory of your remote server to confirm that the directory `archived_logs_group10` and its contents are there.
 
----  
+---
 ## Group Session Attendance Report
 
 We met several times during the development of this project. Below is a summary of attendance during group sessions:
@@ -43,4 +43,15 @@ We met several times during the development of this project. Below is a summary 
 | 3 ⮞ Task 2 Implementation              | 13-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
 | 4 ⮞ Task 3 Implementation              | 12-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
 | 4 ⮞ Checks & Test running                  | 12-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
-| 5 ⮞ Documentation                      | 17-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |  
+| 5 ⮞ Documentation                      | 17-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+
+## Contact Information
+For any questions or more clarity, please contact:
+- Olive Umurerwa» [Email](o.umurerwa@alustudent.com) | [Github](https://github.com/Umurerwa3)
+- Azalie Oyim Oga » [Email](a.oga@alustudent.com) | [Github](https://github.com/Az-oga)
+- Shalom Amaliza » [Email](s.amaliza@alustudent.com) | [Github](https://github.com/amaliza-shal)
+- Chiagoziem Eke » [Email](c.eke@alustudent.com) | [Github](https://github.com/Mr-Eke)
+- Jolly Burabyo Gift » [Email](j.burabyo@alustudent.com) | [Github](https://github.com/Burabyo)
+- HonourGod Levison » [Email](h.levison@alustudent.com) | [Github](https://github.com/H-levison)
+---
+_Thank you, and I hope you enjoyed using our **Heart Rate Monitoring System**!_ 😅
