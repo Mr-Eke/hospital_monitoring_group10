@@ -21,6 +21,9 @@ eke@ubuntu~$ cd hospital_monitoring_group10
 ### Task 1: Heart Rate Monitoring  
 - To record the heart rate from a device into the logfile, execute the heart rate monitor script » `./heart_rate_monitor.sh`  
 - Enter a heart rate recording device name when you get this prompt ╰⪼  _"Enter device name (e.g., "Monitor_A", "Monitor_B"):"_  
+- **Background Process:**  
+  - The script will start executing in a separate process in the background, and the Process ID (PID) will be displayed, which you can use to manage the execution of this script.
+To check the log output, use: `tail -f heart_rate_log.txt`  
 ### Task 2: Log Archival
 This script archives the heart rate log file by renaming it with a timestamp.
 - To archive the log file, run archive_log script » `./archive_log.sh`
