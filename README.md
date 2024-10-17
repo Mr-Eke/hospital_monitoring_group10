@@ -47,7 +47,7 @@ We met several times during the development of this project. Below is a summary 
 
 ## Contact Information
 For any questions or more clarity, please contact these awsome contributors ⤵️
-- Olive Umurerwa» [Email](o.umurerwa@alustudent.com) | [Github](https://github.com/Umurerwa3)
+- Olive Umurerwa » [Email](o.umurerwa@alustudent.com) | [Github](https://github.com/Umurerwa3)
 - Azalie Oyim Oga » [Email](a.oga@alustudent.com) | [Github](https://github.com/Az-oga)
 - Shalom Amaliza » [Email](s.amaliza@alustudent.com) | [Github](https://github.com/amaliza-shal)
 - Chiagoziem Eke » [Email](c.eke@alustudent.com) | [Github](https://github.com/Mr-Eke)
