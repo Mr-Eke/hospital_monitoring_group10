@@ -46,7 +46,7 @@ We met several times during the development of this project. Below is a summary 
 | 5 ⮞ Documentation                      | 17-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
 
 ## Contact Information
-For any questions or more clarity, please contact:
+For any questions or more clarity, please contact these awsome contributors ⤵️
 - Olive Umurerwa» [Email](o.umurerwa@alustudent.com) | [Github](https://github.com/Umurerwa3)
 - Azalie Oyim Oga » [Email](a.oga@alustudent.com) | [Github](https://github.com/Az-oga)
 - Shalom Amaliza » [Email](s.amaliza@alustudent.com) | [Github](https://github.com/amaliza-shal)
