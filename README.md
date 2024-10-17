@@ -34,7 +34,7 @@ This script moves the archived log files to a designated directory and backs the
 ---
 ## Group Session Attendance Report
 
-We met several times during the development of this project. Below is a summary of attendance during group sessions:
+We met several times for the development of this project. Below is a summary of attendance for our sessions ⤵️
 
 | **Session**                                    | **Date (2024)**      | **Present**                                               | **Absent** |
 |------------------------------------------------|---------------|-----------------------------------------------------------|------------|
