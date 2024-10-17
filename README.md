@@ -21,3 +21,13 @@ eke@ubuntu~$ cd hospital_monitoring_group10
 This script archives the heart rate log file by renaming it with a timestamp.
 - To archive the log file, run archive_log script » `./archive_log.sh`
    - The original `heart_rate_log.txt` will be renamed to `heart_rate_log.txt_YYYYMMDD_HHMMSS` with the timestamp of when the script was executed.
+### Task 3: Archival and Remote Backup
+This script moves the archived log files to a designated directory and backs them up to a remote server using SSH.
+- **Set Up SSH Access:**
+  - In this script `backup_archives.sh`, replace the SSH credentials (host and username) with your own remote server credentials.
+- Run the script » `./backup_archives.sh` and provide the password to your remote server when prompted.
+
+- **Check and Confirm Backup**:
+  - Archived files will be moved to the `archived_logs_group10` and then securely copied to the home directory `/home/` of your remote server using `scp`. You can check the home directory of your remote server to confirm that the directory `archived_logs_group10` and its contents are there.
+
+---
