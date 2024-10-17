@@ -18,6 +18,9 @@ These scripts are part of the hospital’s system upgrade to improve patient mon
 eke@ubuntu~$ git clone https://github.com/Mr-Eke/hospital_monitoring_group10.git
 eke@ubuntu~$ cd hospital_monitoring_group10
 ```
+### Task 1: Heart Rate Monitoring  
+- To record the heart rate from a device into the logfile, execute the heart rate monitor script » `./heart_rate_monitor.sh`  
+- Enter a heart rate recording device name when you get this prompt ╰⪼  _"Enter device name (e.g., "Monitor_A", "Monitor_B"):"_  
 ### Task 2: Log Archival
 This script archives the heart rate log file by renaming it with a timestamp.
 - To archive the log file, run archive_log script » `./archive_log.sh`
