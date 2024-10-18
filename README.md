@@ -3,9 +3,9 @@
 ## Project Overview
 This project aims to develop a system for **recording heart rate data**, **archiving logs**, and **backing them up to a remote server**. The project includes three main tasks, each implemented as a shell script:
 
-»  **Heart Rate Monitoring Script**  ╰⪼   `heart_rate_monitor.sh`
-»  **Log Archival Script**  ╰⪼   `archive_log.sh`
-»  **Archival and Backup Script**  ╰⪼   `backup_archives.sh`
+»  **Heart Rate Monitoring Script**  ╰⪼   `heart_rate_monitor.sh`  
+»  **Log Archival Script**  ╰⪼   `archive_log.sh`  
+»  **Archival and Backup Script**  ╰⪼   `backup_archives.sh`  
 
 These scripts are part of the hospital’s system upgrade to improve patient monitoring and data management.
 
@@ -19,8 +19,8 @@ eke@ubuntu~$ git clone https://github.com/Mr-Eke/hospital_monitoring_group10.git
 eke@ubuntu~$ cd hospital_monitoring_group10
 ```
 ### Task 1: Heart Rate Monitoring
-- To record the heart rate from a device into the logfile, execute the heart rate monitor script » `./heart_rate_monitor.sh`
-- Enter a recording device name when you get this prompt ╰⪼ _"Enter device name (e.g., "Monitor_A", "Monitor_B"):"_
+- To record the heart rate from a device into a logfile, execute this script: `./heart_rate_monitor.sh`
+- Enter a recording device name when you get this prompt: _"Enter device name (e.g., "Monitor_A", "Monitor_B"):"_
 - **Background Process:**
   - The script will start executing in a separate process in the background, and the Process ID (PID) will be displayed, which you can use to manage the execution of this script.
 To check the log output, use: `tail -f heart_rate_log.txt`
