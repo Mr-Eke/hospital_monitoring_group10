@@ -44,12 +44,12 @@ We met several times for the development of this project. Below is a summary of 
 
 | **Session**                                    | **Date (2024)**      | **Present**                                               | **Absent** |
 |------------------------------------------------|---------------|-----------------------------------------------------------|------------|
-| 1 ⮞ Understanding the tasks                | 08-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
-| 2 ⮞ Task 1 Implementation              | 10-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
-| 3 ⮞ Task 2 Implementation              | 13-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
-| 4 ⮞ Task 3 Implementation              | 12-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
-| 4 ⮞ Checks & Test running                  | 12-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
-| 5 ⮞ Documentation                      | 17-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| 1 » Understanding the tasks                | 08-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| 2 » Task 1 Implementation              | 10-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| 3 » Task 2 Implementation              | 13-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| 4 » Task 3 Implementation              | 12-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| 5 » Checks & Test running                  | 12-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
+| 6 » Documentation                      | 17-Oct    | Azalie, HonourGod, Chiagoziem, Shalom, Jolly, Olive        | None       |
 
 ## Contact Information
 For any questions or more clarity, please contact these awsome contributors ⤵️
