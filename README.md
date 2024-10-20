@@ -35,7 +35,7 @@ This script moves the archived log files to a designated directory and backs the
 - Run the script » `./backup_archives.sh` and provide the password to your remote server when prompted.
 
 - **Check and Confirm Backup**:
-  - Archived files will be moved to the `archived_logs_group10` and then securely copied to the home directory `/home/` of your remote server using `scp`. You can check the home directory of your remote server to confirm that the directory `archived_logs_group10` and its contents are there.
+  - Archived files will be moved to the `archived_logs_group10` directory and then securely copied to the home directory `/home/` of your remote server using `scp`. You can check the home directory of your remote server to confirm that the directory `archived_logs_group10` and its contents are there.
 
 ---
 ## Group Session Attendance Report
